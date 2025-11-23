@@ -121,6 +121,7 @@
 
         <!-- Database drivers, should align with databases -->
         <version.postgresql.driver>42.3.5</version.postgresql.driver>
+		 <version.gaussdb.driver>506.0.0.b058</version.gaussdb.driver>
         <version.mysql.driver>8.0.28</version.mysql.driver>
         <version.mysql.binlog>0.27.2</version.mysql.binlog>
         <version.mongo.driver>4.3.3</version.mongo.driver>
@@ -152,6 +153,7 @@
         <module>debezium-embedded</module>
         <module>debezium-connector-mysql</module>
         <module>debezium-connector-postgres</module>
+		<module>debezium-connector-gaussdb</module>
         <module>debezium-connector-mongodb</module>
         <module>debezium-connector-sqlserver</module>
         <module>debezium-connector-oracle</module>

@@ -172,6 +172,12 @@
                 <artifactId>protobuf-java</artifactId>
                 <version>${version.com.google.protobuf}</version>
             </dependency>
+			
+			<dependency>
+				<groupId>com.huaweicloud.gaussdb</groupId>
+				<artifactId>gaussdbjdbc</artifactId>
+				<version>${version.gaussdb.driver}</version>
+			</dependency>
 
             <!-- MySQL JDBC Driver, Binlog reader, Geometry support -->
             <dependency>
